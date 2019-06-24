@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="API regression tests" verbose="5" time-out="9000000" configfailurepolicy="continue" parallel="classes" thread-count="1">
+    <test name="API tests">
+        <packages>
+            <package name="regression.*"/>
+        </packages>
+    </test>
+</suite>
